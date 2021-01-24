@@ -20,6 +20,9 @@
                                 <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
                                 </jet-nav-link>
+                                <jet-nav-link :href="route('time-converter')" :active="route().current('time-converter')">
+                                    Time Converter
+                                </jet-nav-link>
                             </div>
                         </div>
 
